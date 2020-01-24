@@ -1,0 +1,407 @@
+img{
+    max-width: 100%;
+    height: auto
+}
+
+/*refresh Bootstrap CSS*/
+.container{
+    padding: 0
+}
+/*END*/
+
+.header-txt{
+    font-family: "Fjalla One", sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase
+}
+.header-txt-margin{
+    margin: 4px 0 50px 0
+}
+.second-text{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px
+}
+.txt_white{
+    color: #fff
+}
+.txt-great{
+    color: #ff1a2c;
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 28px
+}
+
+
+.inner {
+    padding: 71px 0 70px 0
+}
+/*--*****--Head--*****--*/
+
+.banner{
+    height: 780px;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat
+}
+.banner .container{
+    max-width: 1000px
+}
+.header__nav{
+    padding: 52px 0 0 0
+}
+.nav__logo{
+    position: relative;
+    top: -41px;
+    left: 0;
+    width: 167px;
+    height: 187px;
+}
+ .header__nav .nav__item{
+    flex: 0 1 25%;
+    text-align: center
+}
+.nav__item a{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.banner__contact-href{
+    margin: 300px 0 0 0
+}
+.do-button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    background-color: #ff1a2c;
+    color: #fff;
+    transition-duration: 400ms
+}
+.do-button a{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px
+}
+.do-button a:hover{
+    background-color: #191919
+}
+
+
+/*--*****--About us--*****--*/
+.about__h{
+    color: #333333;
+}
+.about__content{
+    min-height: 440px;
+    margin: 0 -17px
+}
+.about__description, .about__images{
+    margin: 0 17px
+}
+.about__description{
+    flex: 0 1 40%
+}
+.about__images-inner{
+    margin: 0 -11px;
+    max-height: 100%
+}
+.about__images-inner img{
+    margin: 0 11px;
+    max-width: 315px;
+    max-height: 100%
+}
+.about__text{
+    margin-top: -7px
+}
+.about__text p{
+    color: #22191a;
+    margin-bottom: 33px
+}
+/*END*/
+/*--*****--Cooking clases--*****--*/
+.cooking{
+    background-color: #22191a
+}
+.cooking__h{
+    margin-bottom: 43px
+}
+.cooking__description{
+    padding: 0 102px
+}
+
+.cooking__carousel{
+    margin:  41px 0 51px 0
+}
+.cooking__hash-togles{
+    margin-top: 31px
+}
+.hash-dot a{
+    display: flex;
+    margin: 0 3px;
+    border: 1px solid #ff1a2c;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center
+}
+.hash-dot a:focus .inner-dot, .hash-dot a:active .inner-dot{
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #ff1a2c;
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background-color: inherit;
+    
+}
+.cooking__contact-button a:hover{
+    background-color: #fff;
+    color: #22191a;
+}
+
+.cooking__carousel .owl-nav button{
+    position: absolute;
+    bottom: -12px
+}
+.owl-nav button span{
+    color: #ff1a2c;
+    font-size: 20px;
+    font-family: "Font Awesome";
+    font-weight: 900
+}
+.cooking__carousel .owl-nav button.owl-prev{
+    left: 11%
+}
+.cooking__carousel .owl-nav button.owl-next{
+    right: 11%
+}
+.cooking__carousel{
+    position: relative
+}
+
+.cooking__carousel .owl-item{
+    float: none;
+    position: relative;
+    transition: 0.3s;
+    z-index: 1
+}
+.cooking__img-hidden{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(34, 25, 26, 0.6);
+    z-index: -1;
+    top:0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    font-size: 28px;
+    transition-delay: 300ms
+    
+}
+.cooking__carousel .owl-item:hover{
+    transform: scale(1.07);
+    z-index: 8000;
+    transition-delay: 0.3s
+}
+.cooking__carousel .owl-item:hover .cooking__img-hidden{
+    z-index: 1;
+}
+#cooking-owl-carousel{
+    padding-top: 10px;
+    height: 300px;
+    overflow-x:hidden;
+    position: static
+}
+#cooking-owl-carousel .owl-stage-outer, .owl-stage{
+    overflow:  visible
+}
+.owl-stage{
+    display: flex
+}
+/*END*/
+/*--*****--Personal training--*****--*/
+.training__inner{
+    margin: 0 -16px
+}
+.training__images, .training__content{
+    margin: 0 16px
+}
+.training__images{
+    flex: 0 1 555px
+}
+.training__images img:first-child{
+    margin-bottom: 21px
+}
+.training__content{
+    flex: 0 1 48%;
+    color: #22191a
+}
+.training__content .training__h{
+    color: #333333
+}
+.training__content p{
+    margin-bottom: 24px
+}
+.training__call{
+    color: #22191a;
+    font-size: 30px;
+    margin: 34px 0 0 0;
+    text-transform: none;
+    line-height: 33px
+}
+.training__call span:last-child{
+    color: #ff1a2c;
+    margin-left: 27px
+}
+/*END*/
+/*--*****--Wine twsting--*****--*/
+.whine-testing{
+    background-color: #22191a;
+}
+.whine-testing__cards{
+    margin: 0 -14px
+}
+.card{
+    flex: 0 1 auto;
+    max-width: 264px;
+    margin: 0 14px 57px 14px;
+    background: inherit
+}
+.card__img{
+    position: relative
+}
+.card .card__description{
+    padding: 14px 0 0 0;
+    font-size: 22px;
+    line-height: 32px
+}
+.card__hidden{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(34, 25, 26, 0.6);
+}
+.card__img:hover .card__hidden{
+    display: flex
+}
+.whine-testing__button a:hover, .card__button a:hover{
+    background-color: #fff;
+    color: #22191a;
+}
+.whine-testing__button{
+    position: relative;
+    margin-top: -7px
+}
+/*END*/
+/*--*****--Testimonials--*****--*/
+.testimonials{
+    height: 600px;
+    background-image: url(../images/testimonials_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+.testimonials__over-shadow{
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.58);
+}
+.testimonials__content{
+    width: 555px
+}
+.testimonials__carousel .item{
+    margin: 0 1px 0 4px
+}
+.testimonials__carousel .item .item__text{
+    margin: 41px 0 25px 0
+}
+.testimonials__carousel .owl-nav button{
+    position: absolute;
+    bottom: -29px
+}
+.testimonials__carousel .item .item__autor{
+    margin-bottom: 70px
+}
+.testimonials__carousel .owl-nav button.owl-prev{
+    left: 0
+}
+.testimonials__carousel .owl-nav button.owl-next{
+    right: 0
+}
+/*END*/
+/**/
+.footer__top{
+    height: 160px;
+    background-color: #22191a;
+}
+.footer__bottom{
+    height: 40px;
+    background-color: #000000;
+}
+.footer__top .container{
+    height: 100%;
+}
+.footer__top-inner{
+    height: inherit;
+    padding-bottom: 5px
+}
+.footer__logo{
+    flex: 0 1 120px
+}
+.footer__menu{
+    flex: 1 1 auto;
+    margin: 0 82px 0 87px
+}
+.footer__nav a span{
+    font-size: 18px;
+    line-height: 27.63px;
+    text-transform: none
+}
+.footer__social-h span{
+    font-size: 14px;
+    text-transform: uppercase
+}
+.footer__social-icons{
+    margin-top: 14px
+}
+.social-icons__item{
+    display: block;
+    border: 1px solid #ff1a2c;
+    width: 40px;
+    height: 40px;
+    font-family: "Font Awesome";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    cursor: pointer;
+    margin: 0 15px
+}
+.social-icons__item i{
+    color: #ff1a2c;
+}
+.social-icons__item .fa-instagram{
+    font-size: 25px
+}
+.social-icons__item:hover{
+    background-color: #ff1a2c
+}
+.social-icons__item:hover i{
+    color: #22191a
+}
+
+.footer__bottom{
+    font-size: 14px
+}
+/*END*/

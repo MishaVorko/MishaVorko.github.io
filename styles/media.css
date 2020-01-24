@@ -1,0 +1,44 @@
+@media screen and (max-width: 1200px){
+    .header-txt{
+    }
+    .do-button a{
+        width: 155px;
+        height: 50px
+    }
+    .banner{
+        background-size: cover;
+        max-height: 600px
+    }
+    .header__nav{
+        padding: 38px 0 0 0
+    }
+    .nav__logo{
+        top: -27px;
+        max-width: 157px;
+        max-height: 177px
+    }
+    .nav__item a{
+        font-size: 19px
+    }
+    .banner__contact-href{
+        margin: 200px 0 0 0
+    }
+    .about__images-inner img{
+        height: 400px
+    }
+    .about__images-inner img{
+        max-width: 225px
+    }
+    .cooking__carousel .owl-item, .cooking__carousel .owl-item img, .cooking__carousel .owl-stage-outer .owl-height{
+        height: auto
+    }
+}
+@media screen and (max-width: 990px){
+    .whine-testing__inner{
+        justify-content: center
+    }
+    .footer__menu{
+        flex: 1 1 auto;
+        margin: 0 52px 0 57px
+    }
+}
