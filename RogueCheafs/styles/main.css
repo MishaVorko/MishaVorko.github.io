@@ -8,6 +8,10 @@ img{
     padding: 0
 }
 /*END*/
+.inner {
+    padding: 71px 0 70px 0
+}
+
 
 .header-txt{
     font-family: "Fjalla One", sans-serif;
@@ -25,20 +29,12 @@ img{
     font-weight: 400;
     line-height: 28px
 }
-.txt_white{
-    color: #fff
-}
 .txt-great{
     color: #ff1a2c;
     font-family: "Great Vibes", cursive;
     font-size: 30px;
     font-weight: 400;
     line-height: 28px
-}
-
-
-.inner {
-    padding: 71px 0 70px 0
 }
 /*--*****--Head--*****--*/
 
@@ -152,7 +148,7 @@ img{
     justify-content: center;
     align-items: center
 }
-.hash-dot a:focus .inner-dot, .hash-dot a:active .inner-dot{
+.active_dot{
     display: block;
     width: 8px;
     height: 8px;
